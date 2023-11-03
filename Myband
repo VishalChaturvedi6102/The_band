@@ -1,0 +1,3325 @@
+<html>
+
+
+
+<head>
+
+    <style>
+
+        .style-0 {
+
+            cursor: auto;
+
+            font-family: Verdana, sans-serif;
+
+            font-size: 15px;
+
+            line-height: 22.5px;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-1 {
+
+            top: 0px;
+
+            position: fixed;
+
+            width: 100%;
+
+            z-index: 1;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-2 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+
+            width: 100%;
+
+            overflow: hidden;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-3 {
+
+            display: none;
+
+            float: right;
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            width: auto;
+
+            border: 0px none rgb(255, 255, 255);
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-4 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-5 {
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            float: left;
+
+            width: auto;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-6 {
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            float: left;
+
+            width: auto;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-7 {
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            float: left;
+
+            width: auto;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-8 {
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            float: left;
+
+            width: auto;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-9 {
+
+            position: static;
+
+            float: left;
+
+            display: block;
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-10 {
+
+            padding: 12px 24px;
+
+            white-space: normal;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: inline-block;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgba(0, 0, 0, 0);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-11 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-12 {
+
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.19) 0px 4px 20px 0px;
+
+            cursor: auto;
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            display: none;
+
+            position: absolute;
+
+            min-width: 160px;
+
+            margin: 0px;
+
+            padding: 0px;
+
+            z-index: 1;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-13 {
+
+            width: 100%;
+
+            display: block;
+
+            padding: 8px 16px;
+
+            text-align: left;
+
+            border: 0px none rgb(0, 0, 0);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(0, 0, 0) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(0, 0, 0);
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-14 {
+
+            width: 100%;
+
+            display: block;
+
+            padding: 8px 16px;
+
+            text-align: left;
+
+            border: 0px none rgb(0, 0, 0);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(0, 0, 0) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(0, 0, 0);
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-15 {
+
+            width: 100%;
+
+            display: block;
+
+            padding: 8px 16px;
+
+            text-align: left;
+
+            border: 0px none rgb(0, 0, 0);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(0, 0, 0) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(0, 0, 0);
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-16 {
+
+            float: right;
+
+            padding: 12px 24px;
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgba(0, 0, 0, 0);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-17 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-18 {
+
+            margin-top: 46pxdisplay:none;
+
+            display: none;
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            top: 0px;
+
+            position: fixed;
+
+            width: 100%;
+
+            z-index: 1;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-19 {
+
+            padding: 12px 24px;
+
+            width: 100%;
+
+            display: block;
+
+            text-align: left;
+
+            border: 0px none rgb(255, 255, 255);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-20 {
+
+            padding: 12px 24px;
+
+            width: 100%;
+
+            display: block;
+
+            text-align: left;
+
+            border: 0px none rgb(255, 255, 255);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-21 {
+
+            padding: 12px 24px;
+
+            width: 100%;
+
+            display: block;
+
+            text-align: left;
+
+            border: 0px none rgb(255, 255, 255);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-22 {
+
+            padding: 12px 24px;
+
+            width: 100%;
+
+            display: block;
+
+            text-align: left;
+
+            border: 0px none rgb(255, 255, 255);
+
+            white-space: normal;
+
+            float: none;
+
+            outline: rgb(255, 255, 255) none 0px;
+
+            user-select: none;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            cursor: pointer;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-23 {
+
+            max-width: 2000px;
+
+            margin-top: 46pxmargin-left: auto;
+
+            margin-right: auto;
+
+            box-sizing: border-box;
+
+            margin-left: auto;
+
+        }
+
+
+
+        .style-24 {
+
+            display: none;
+
+            text-align: center;
+
+            position: relative;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-25 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-26 {
+
+            color: rgb(255, 255, 255);
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            padding: 32px 16px;
+
+            position: absolute;
+
+            left: 50%;
+
+            bottom: 0px;
+
+            transform: none;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-27 {
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 24px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-28 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-29 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-30 {
+
+            display: block;
+
+            text-align: center;
+
+            position: relative;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-31 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-32 {
+
+            color: rgb(255, 255, 255);
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            padding: 32px 16px;
+
+            position: absolute;
+
+            left: 759.6px;
+
+            bottom: 0px;
+
+            transform: matrix(1, 0, 0, 1, -205.2, 0);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-33 {
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 24px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-34 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-35 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-36 {
+
+            display: none;
+
+            text-align: center;
+
+            position: relative;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-37 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-38 {
+
+            color: rgb(255, 255, 255);
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            padding: 32px 16px;
+
+            position: absolute;
+
+            left: 50%;
+
+            bottom: 0px;
+
+            transform: none;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-39 {
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 24px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-40 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-41 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-42 {
+
+            max-width: 800pxpadding-top:64px;
+
+            padding-bottom: 64px;
+
+            text-align: center;
+
+            padding: 64px 16px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            box-sizing: border-box;
+
+            padding-top: 64px;
+
+        }
+
+
+
+        .style-43 {
+
+            letter-spacing: 4px;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 30px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-44 {
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-45 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-46 {
+
+            text-align: justify;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-47 {
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-48 {
+
+            width: 33.3333%;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-49 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-50 {
+
+            width: 60%margin-bottom:16px;
+
+            border-radius: 4px;
+
+            vertical-align: middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            margin-bottom: 16px;
+
+        }
+
+
+
+        .style-51 {
+
+            width: 33.3333%;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-52 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-53 {
+
+            width: 60%margin-bottom:16px;
+
+            border-radius: 4px;
+
+            vertical-align: middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            margin-bottom: 16px;
+
+        }
+
+
+
+        .style-54 {
+
+            width: 33.3333%;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-55 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-56 {
+
+            width: 60%border-radius:4px;
+
+            vertical-align: middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            border-radius: 4px;
+
+        }
+
+
+
+        .style-57 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-58 {
+
+            max-width: 800pxpadding-top:64px;
+
+            padding-bottom: 64px;
+
+            padding: 64px 16px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            box-sizing: border-box;
+
+            padding-top: 64px;
+
+        }
+
+
+
+        .style-59 {
+
+            text-align: center;
+
+            letter-spacing: 4px;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 30px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-60 {
+
+            text-align: center;
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-61 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-62 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-63 {
+
+            color: rgb(117, 117, 117);
+
+            background-color: rgb(255, 255, 255);
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            list-style-type: none;
+
+            padding: 0px;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-64 {
+
+            padding: 8px 16px;
+
+            border-bottom: 0.8px solid rgb(221, 221, 221);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-65 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(244, 67, 54);
+
+            margin-left: 16px;
+
+            display: inline-block;
+
+            padding-left: 8px;
+
+            padding-right: 8px;
+
+            text-align: center;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-66 {
+
+            padding: 8px 16px;
+
+            border-bottom: 0.8px solid rgb(221, 221, 221);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-67 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(244, 67, 54);
+
+            margin-left: 16px;
+
+            display: inline-block;
+
+            padding-left: 8px;
+
+            padding-right: 8px;
+
+            text-align: center;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-68 {
+
+            padding: 8px 16px;
+
+            border-bottom: 0px none rgb(117, 117, 117);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-69 {
+
+            float: right;
+
+            margin-right: 16px;
+
+            border-radius: 50%;
+
+            background-color: rgb(0, 0, 0);
+
+            color: rgb(255, 255, 255);
+
+            display: block;
+
+            padding-left: 8px;
+
+            padding-right: 8px;
+
+            text-align: center;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-70 {
+
+            margin: 0 -16pxpadding-top:32px;
+
+            padding-bottom: 32px;
+
+            padding: 32px 8px;
+
+            box-sizing: border-box;
+
+            padding-top: 32px;
+
+        }
+
+
+
+        .style-71 {
+
+            width: 33.3333%;
+
+            margin-bottom: 16px;
+
+            padding: 0px 8px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-72 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-73 {
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            padding: 0.15px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-74 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-75 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-76 {
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-77 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-78 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            margin-bottom: 16px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: inline-block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px 0px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-79 {
+
+            width: 33.3333%;
+
+            margin-bottom: 16px;
+
+            padding: 0px 8px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-80 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-81 {
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            padding: 0.15px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-82 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-83 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-84 {
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-85 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-86 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            margin-bottom: 16px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: inline-block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px 0px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-87 {
+
+            width: 33.3333%;
+
+            margin-bottom: 16px;
+
+            padding: 0px 8px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-88 {
+
+            width: 100%vertical-align:middle;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            vertical-align: middle;
+
+        }
+
+
+
+        .style-89 {
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(255, 255, 255);
+
+            padding: 0.15px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-90 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-91 {
+
+            font-weight: 700;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-92 {
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-93 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-94 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            margin-bottom: 16px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: inline-block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px 0px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-95 {
+
+            z-index: 3;
+
+            display: none;
+
+            padding-top: 100px;
+
+            position: fixed;
+
+            left: 0px;
+
+            top: 0px;
+
+            width: 100%;
+
+            height: 100%;
+
+            overflow: auto;
+
+            background-color: rgba(0, 0, 0, 0.4);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-96 {
+
+            width: 900px;
+
+            position: relative;
+
+            animation: 0.4s ease 0s 1 normal none running animatetop;
+
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.19) 0px 4px 20px 0px;
+
+            margin: auto;
+
+            background-color: rgb(255, 255, 255);
+
+            padding: 0px;
+
+            outline: rgb(0, 0, 0) none 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-97 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 150, 136);
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            text-align: center;
+
+            padding: 32px 16px;
+
+            display: block;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-98 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 150, 136);
+
+            font-size: 24px;
+
+            position: absolute;
+
+            right: 0px;
+
+            top: 0px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-99 {
+
+            letter-spacing: 4px;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 30px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-100 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 30px;
+
+            font-family: FontAwesome;
+
+            font-size: 30px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            margin-right: 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-101 {
+
+            padding: 0.15px 16px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-102 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-103 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-104 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-105 {
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            padding: 8px;
+
+            display: block;
+
+            border-top: 0.8px solid rgb(204, 204, 204);
+
+            border-right: 0.8px solid rgb(204, 204, 204);
+
+            border-left: 0.8px solid rgb(204, 204, 204);
+
+            border-image: none;
+
+            border-bottom: 0.8px solid rgb(204, 204, 204);
+
+            width: 100%;
+
+            overflow: visible;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-106 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-107 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-108 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-109 {
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            padding: 8px;
+
+            display: block;
+
+            border-top: 0.8px solid rgb(204, 204, 204);
+
+            border-right: 0.8px solid rgb(204, 204, 204);
+
+            border-left: 0.8px solid rgb(204, 204, 204);
+
+            border-image: none;
+
+            border-bottom: 0.8px solid rgb(204, 204, 204);
+
+            width: 100%;
+
+            overflow: visible;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-110 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 150, 136);
+
+            float: right;
+
+            padding-top: 16px;
+
+            padding-bottom: 16px;
+
+            margin-top: 16px;
+
+            margin-bottom: 16px;
+
+            display: block;
+
+            width: 100%;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            padding: 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 16px 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-111 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-112 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(244, 67, 54);
+
+            margin-top: 16px;
+
+            margin-bottom: 16px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: inline-block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 16px 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-113 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 15px;
+
+            font-family: FontAwesome;
+
+            font-size: 15px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-114 {
+
+            float: right;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-115 {
+
+            color: rgb(33, 150, 243);
+
+            background-color: rgba(0, 0, 0, 0);
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-116 {
+
+            max-width: 800pxpadding-top:64px;
+
+            padding-bottom: 64px;
+
+            padding: 64px 16px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            box-sizing: border-box;
+
+            padding-top: 64px;
+
+        }
+
+
+
+        .style-117 {
+
+            text-align: center;
+
+            letter-spacing: 4px;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-weight: 400;
+
+            margin: 10px 0px;
+
+            font-size: 30px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-118 {
+
+            text-align: center;
+
+            opacity: 0.6;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-119 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-120 {
+
+            padding-top: 32px;
+
+            padding-bottom: 32px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-121 {
+
+            width: 50%;
+
+            margin-bottom: 16px;
+
+            font-size: 18px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-122 {
+
+            width: 30pxdisplay:inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 18px;
+
+            font-family: FontAwesome;
+
+            font-size: 18px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-123 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-124 {
+
+            width: 30pxdisplay:inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 18px;
+
+            font-family: FontAwesome;
+
+            font-size: 18px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-125 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-126 {
+
+            width: 30pxdisplay:inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 18px;
+
+            font-family: FontAwesome;
+
+            font-size: 18px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-127 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-128 {
+
+            width: 50%;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-129 {
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-130 {
+
+            margin: 0 -16px 8px -16pxpadding:0px 8px;
+
+            box-sizing: border-box;
+
+            padding: 0px 8px;
+
+        }
+
+
+
+        .style-131 {
+
+            width: 50%;
+
+            padding: 0px 8px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-132 {
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            padding: 8px;
+
+            display: block;
+
+            border-top: 0.8px solid rgb(204, 204, 204);
+
+            border-right: 0.8px solid rgb(204, 204, 204);
+
+            border-left: 0.8px solid rgb(204, 204, 204);
+
+            border-image: none;
+
+            border-bottom: 0.8px solid rgb(204, 204, 204);
+
+            width: 100%;
+
+            overflow: visible;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-133 {
+
+            width: 50%;
+
+            padding: 0px 8px;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-134 {
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            padding: 8px;
+
+            display: block;
+
+            border-top: 0.8px solid rgb(204, 204, 204);
+
+            border-right: 0.8px solid rgb(204, 204, 204);
+
+            border-left: 0.8px solid rgb(204, 204, 204);
+
+            border-image: none;
+
+            border-bottom: 0.8px solid rgb(204, 204, 204);
+
+            width: 100%;
+
+            overflow: visible;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-135 {
+
+            border: 0.8px solid rgb(204, 204, 204);
+
+            padding: 8px;
+
+            display: block;
+
+            border-top: 0.8px solid rgb(204, 204, 204);
+
+            border-right: 0.8px solid rgb(204, 204, 204);
+
+            border-left: 0.8px solid rgb(204, 204, 204);
+
+            border-image: none;
+
+            border-bottom: 0.8px solid rgb(204, 204, 204);
+
+            width: 100%;
+
+            overflow: visible;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-136 {
+
+            color: rgb(255, 255, 255);
+
+            background-color: rgb(0, 0, 0);
+
+            float: right;
+
+            margin-top: 16px;
+
+            margin-bottom: 16px;
+
+            user-select: none;
+
+            border: 0px none rgb(255, 255, 255);
+
+            display: block;
+
+            padding: 8px 16px;
+
+            vertical-align: middle;
+
+            overflow: hidden;
+
+            text-decoration: none solid rgb(255, 255, 255);
+
+            text-align: center;
+
+            cursor: pointer;
+
+            white-space: nowrap;
+
+            appearance: button;
+
+            text-transform: none;
+
+            font: 15px / 22.5px Verdana, sans-serif;
+
+            margin: 16px 0px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-137 {
+
+            width: 100%filter:grayscale(0.5);
+
+            vertical-align: middle;
+
+            max-width: 100%;
+
+            height: auto;
+
+            border-style: none;
+
+            box-sizing: border-box;
+
+            filter: grayscale(0.5);
+
+        }
+
+
+
+        .style-138 {
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(241, 241, 241);
+
+            padding-top: 64px;
+
+            padding-bottom: 64px;
+
+            text-align: center;
+
+            font-size: 24px;
+
+            opacity: 0.6;
+
+            padding: 64px 16px;
+
+            display: block;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-139 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-140 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-141 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-142 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-143 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-144 {
+
+            display: inline-block;
+
+            font-style: normal;
+
+            font-variant: normal;
+
+            font-kerning: auto;
+
+            font-optical-sizing: auto;
+
+            font-feature-settings: normal;
+
+            font-variation-settings: normal;
+
+            font-weight: 400;
+
+            font-stretch: 100%;
+
+            line-height: 24px;
+
+            font-family: FontAwesome;
+
+            font-size: 24px;
+
+            text-rendering: auto;
+
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-145 {
+
+            font-size: 15px;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        .style-146 {
+
+            color: rgb(0, 0, 0);
+
+            background-color: rgba(0, 0, 0, 0);
+
+            box-sizing: border-box;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+<body class="style-0">
+
+
+
+    <!-- Navbar -->
+
+    <div class="style-1">
+
+        <div class="style-2">
+
+            <a class="style-3" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="style-4"></i></a> <a href="#" class="style-5">HOME</a> <a href="#band" class="style-6">BAND</a> <a href="#tour" class="style-7">TOUR</a> <a href="#contact" class="style-8">CONTACT</a>
+
+            <div class="style-9">
+
+                <button class="style-10" title="More">MORE <i class="style-11"></i></button>
+
+                <div class="style-12">
+
+                    <a href="#" class="style-13">Merchandise</a> <a href="#" class="style-14">Extras</a> <a href="#" class="style-15">Media</a>
+
+                </div>
+
+            </div> <a href="javascript:void(0)" class="style-16"><i class="style-17"></i></a>
+
+        </div>
+
+    </div> <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+
+    <div class="style-18">
+
+        <a href="#band" class="style-19" onclick="myFunction()">BAND</a> <a href="#tour" class="style-20" onclick="myFunction()">TOUR</a> <a href="#contact" class="style-21" onclick="myFunction()">CONTACT</a> <a href="#" class="style-22" onclick="myFunction()">MERCH</a>
+
+    </div> <!-- Page content -->
+
+    <div class="style-23">
+
+
+
+        <!-- Automatic Slideshow Images -->
+
+        <div class="style-24">
+
+            <img src="/w3images/la.jpg" class="style-25" />
+
+            <div class="style-26">
+
+                <h3 class="style-27">Los Angeles</h3>
+
+                <p class="style-28"><b class="style-29">We had the best time playing at Venice Beach!</b></p>
+
+            </div>
+
+        </div>
+
+        <div class="style-30">
+
+            <img src="/w3images/ny.jpg" class="style-31" />
+
+            <div class="style-32">
+
+                <h3 class="style-33">New York</h3>
+
+                <p class="style-34"><b class="style-35">The atmosphere in New York is lorem ipsum.</b></p>
+
+            </div>
+
+        </div>
+
+        <div class="style-36">
+
+            <img src="/w3images/chicago.jpg" class="style-37" />
+
+            <div class="style-38">
+
+                <h3 class="style-39">Chicago</h3>
+
+                <p class="style-40"><b class="style-41">Thank you, Chicago - A night we won't forget.</b></p>
+
+            </div>
+
+        </div> <!-- The Band Section -->
+
+        <div class="style-42">
+
+            <h2 class="style-43">THE BAND</h2>
+
+            <p class="style-44"><i class="style-45">We love music</i></p>
+
+            <p class="style-46">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="style-47">
+
+                <div class="style-48">
+
+                    <p class="style-49">Name</p> <img src="/w3images/bandmember.jpg" class="style-50" alt="Random Name" />
+
+                </div>
+
+                <div class="style-51">
+
+                    <p class="style-52">Name</p> <img src="/w3images/bandmember.jpg" class="style-53" alt="Random Name" />
+
+                </div>
+
+                <div class="style-54">
+
+                    <p class="style-55">Name</p> <img src="/w3images/bandmember.jpg" class="style-56" alt="Random Name" />
+
+                </div>
+
+            </div>
+
+        </div> <!-- The Tour Section -->
+
+        <div class="style-57">
+
+            <div class="style-58">
+
+                <h2 class="style-59">TOUR DATES</h2>
+
+                <p class="style-60"><i class="style-61">Remember to book your tickets!</i></p><br class="style-62" />
+
+                <ul class="style-63">
+
+                    <li class="style-64">September <span class="style-65">Sold out</span></li>
+
+                    <li class="style-66">October <span class="style-67">Sold out</span></li>
+
+                    <li class="style-68">November <span class="style-69">3</span></li>
+
+                </ul>
+
+                <div class="style-70">
+
+                    <div class="style-71">
+
+                        <img src="/w3images/newyork.jpg" alt="New York" class="style-72" />
+
+                        <div class="style-73">
+
+                            <p class="style-74"><b class="style-75">New York</b></p>
+
+                            <p class="style-76">Fri 27 Nov 2016</p>
+
+                            <p class="style-77">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p> <button class="style-78" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="style-79">
+
+                        <img src="/w3images/paris.jpg" alt="Paris" class="style-80" />
+
+                        <div class="style-81">
+
+                            <p class="style-82"><b class="style-83">Paris</b></p>
+
+                            <p class="style-84">Sat 28 Nov 2016</p>
+
+                            <p class="style-85">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p> <button class="style-86" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="style-87">
+
+                        <img src="/w3images/sanfran.jpg" alt="San Francisco" class="style-88" />
+
+                        <div class="style-89">
+
+                            <p class="style-90"><b class="style-91">San Francisco</b></p>
+
+                            <p class="style-92">Sun 29 Nov 2016</p>
+
+                            <p class="style-93">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p> <button class="style-94" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div> <!-- Ticket Modal -->
+
+        <div class="style-95">
+
+            <div class="style-96">
+
+                <header class="style-97">
+
+                    <span onclick="document.getElementById('ticketModal').style.display='none'" class="style-98">×</span>
+
+                    <h2 class="style-99"><i class="style-100"></i>Tickets</h2>
+
+                </header>
+
+                <div class="style-101">
+
+                    <p class="style-102"><label class="style-103"><i class="style-104"></i> Tickets, $15 per person</label></p> <input class="style-105" type="text" placeholder="How many?" />
+
+                    <p class="style-106"><label class="style-107"><i class="style-108"></i> Send To</label></p> <input class="style-109" type="text" placeholder="Enter email" /> <button class="style-110">PAY <i class="style-111"></i></button> <button class="style-112" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="style-113"></i></button>
+
+                    <p class="style-114">Need <a href="#" class="style-115">help?</a></p>
+
+                </div>
+
+            </div>
+
+        </div> <!-- The Contact Section -->
+
+        <div class="style-116">
+
+            <h2 class="style-117">CONTACT</h2>
+
+            <p class="style-118"><i class="style-119">Fan? Drop a note!</i></p>
+
+            <div class="style-120">
+
+                <div class="style-121">
+
+                    <i class="style-122"></i> Chicago, US<br class="style-123" /> <i class="style-124"></i> Phone: +00 151515<br class="style-125" /> <i class="style-126"> </i> Email: mail@mail.com<br class="style-127" />
+
+                </div>
+
+                <div class="style-128">
+
+                    <form action="/action_page.php" target="_blank" class="style-129">
+
+                        <div class="style-130">
+
+                            <div class="style-131">
+
+                                <input class="style-132" type="text" placeholder="Name" required="" name="Name" />
+
+                            </div>
+
+                            <div class="style-133">
+
+                                <input class="style-134" type="text" placeholder="Email" required="" name="Email" />
+
+                            </div>
+
+                        </div> <input class="style-135" type="text" placeholder="Message" required="" name="Message" /> <button class="style-136" type="submit">SEND</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div> <!-- End Page Content -->
+
+    </div> <!-- Image of location/map --><img src="/w3images/map.jpg" class="style-137" /> <!-- Footer -->
+
+    <footer class="style-138">
+
+        <i class="style-139"></i> <i class="style-140"></i> <i class="style-141"></i> <i class="style-142"></i> <i class="style-143"></i> <i class="style-144"></i>
+
+        <p class="style-145">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="style-146">w3.css</a></p>
+
+    </footer>
+
+</body>
+
+
+
+</html>
